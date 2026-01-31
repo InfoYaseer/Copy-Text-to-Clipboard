@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy Text to Clipboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app">
+        <h1>Copy Text to Clipboard</h1>
+        <p class="sub">Type something, than press copy. You can also paste anywhere.</p>
+        <label for="textInput" class="label">Your Text</label>
+        <textarea name="" id="textInput" placeholder="Type your text here..."></textarea>
+
+        <div class="row">
+            <button id="copybtn" class="btn primary">Copy</button>
+            <button id="clearbtn" class="btn">Clear</button>
+        </div>
+
+        <P id="status" class="status" aria-live="polite"></P>
+    </main>
+<script src="index.js"></script>    
+</body>
+</html>
